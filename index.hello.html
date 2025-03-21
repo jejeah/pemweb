@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampilan Web Kreatif</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Website Kreatif</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#weather">Cuaca</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welome Kontol</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Gambar Beranda" class="hero-image">
+        </section>
+
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah perusahaan yang berjalan di dunia perkontolan</p>
+            <img src="https://via.placeholder.com/600x300" alt="Tentang Kami" class="about-image">
+        </section>
+
+        <section id="gallery">
+            <h2>Galeri</h2>
+            <div class="gallery-container">
+                <img src="https://via.placeholder.com/300x200" alt="Gambar 1" class="gallery-item">
+                <img src="https://via.placeholder.com/300x200" alt="Gambar 2" class="gallery-item">
+                <img src="https://via.placeholder.com/300x200" alt="Gambar 3" class="gallery-item">
+            </div>
+        </section>
+
+        <section id="weather">
+            <h2>Cuaca Hari Ini</h2>
+            <div id="weather-info">
+                <p>Loading...</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Kontak Kami</h2>
+            <form id="contactForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Website Kreatif. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
